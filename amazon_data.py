@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r'C:\Users\HP\Documents\my-data/amazon_cleaned.csv')
+    data = pd.read_csv('amazon_cleaned.csv')
     return data
 data = load_data()
 
