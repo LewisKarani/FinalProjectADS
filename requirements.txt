@@ -3,3 +3,4 @@ streamlit
 numpy
 streamlit-option-menu
 matplotlib
+seaborn
